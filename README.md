@@ -29,8 +29,6 @@ The core model is `ImpulseSuppressorNet`, a small (~1.1M parameter) time-domain 
 ├── task2_finetune.py           # training (SI-SNR + transient-weighted loss)
 ├── task3_validate.py           # SNR improvement / PESQ / STOI + spike flagging
 ├── task4_realtime.py           # optional: live mic -> headphones pipeline
-├── task5_offline_enhance.py    # optional: offline enhancement with chunked overlap-add
-├── batch_clean.py              # simple offline batch cleaner (folder in, folder out)
 ├── checkpoints/                # trained weights (created by task2)
 └── outputs/                    # generated audio, plots, CSVs
 ```
